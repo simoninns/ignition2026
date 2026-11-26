@@ -1,12 +1,16 @@
 # ignition2026
-Ignition2026
+Ignition Roadshow 2026
 
-Documentation: https://simoninns.github.io/ignition2026/
+Website: https://simoninns.github.io/ignition2026/
 
-## Local development
+<img src="qrcode.png" alt="QR code for https://simoninns.github.io/ignition2026/" width="300">
+
+High-resolution QR code for slides: [qrcode.png](qrcode.png) (2880×2880) or [qrcode.svg](qrcode.svg) (vector).
+
+## Local preview
 
 ```sh
-nix develop      # shell with mkdocs + mkdocs-material
-mkdocs serve     # live preview at http://127.0.0.1:8000
-nix build        # build the static site into ./result
+nix run      # serves ./site at http://127.0.0.1:8000
 ```
+
+The page lives in `site/` and is published to GitHub Pages on every push to `main`.

@@ -1,7 +1,0 @@
-site_name: Ignition2026
-site_url: https://simoninns.github.io/ignition2026/
-repo_url: https://github.com/simoninns/ignition2026
-theme:
-  name: material
-nav:
-  - Home: index.md
